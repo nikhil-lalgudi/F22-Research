@@ -207,8 +207,5 @@ animation = camera.animate(interval = 130,
 animation.save('LogReg_2.gif', writer = 'imagemagick')   
 
 
-# In[ ]:
-
-
 print(model.predict([1.8,-20]))
 
